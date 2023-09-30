@@ -1,0 +1,53 @@
+footer{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background: #101010;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+footer p:nth-child(1){
+	font-size: 30px;
+	color: white;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+footer p:nth-child(2){
+	color: white;
+	font-size: 17px;
+	width: 500px;
+	text-align: center;
+	line-height: 26px;
+}
+.social{
+	display: flex;
+}
+.het{
+	height: 180vh;
+	width: 100%;
+    background-image: url(../img/background5.png);
+	background-size: cover;
+	background-position: center;
+	animation-name: example;
+	animation-duration: 30s;
+
+	animation-iteration-count: infinite;
+}
+@keyframes example {
+  0% {background-image: url(../img/background5.png);}
+  25% {background-image: url(../img/background4.jpg);}
+  50% {background-image: url(../img/background5.png);}
+  75% {background-image: url(../img/background4.jpg);}
+  100% {background-image: url(../img/background5.png);}
+}
+.logo{
+	color: white;
+	font-size: 35px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+span{
+	color: #f9004d;
+}

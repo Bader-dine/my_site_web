@@ -1,0 +1,249 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %} boards {% endblock %}
+{% block stylesheet %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/homme5.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/styles1.css' %}">
+
+{% endblock %}
+
+{% block content %}
+<div class="hero">
+    <nav class="navbar-nav ml-auto">
+    
+        <h2 class="logo"  >DAKHLI <span>Bader Eddine</span></h2> 
+                <ul>
+                    <li><a href="#"  id="linkHOME">Home</a></li>
+                    <li><a href="#" id="link">About Us</a></li>
+                    <li><a href="#" id="linkCV">CV</a></li>
+                    <li><a href="#" id ='linkPRO'>Projets</a></li> 
+                </ul>
+                <div id="container">
+                    
+                        <!-- HOME -->
+                        <div  id="contHOME">
+                      <h1 style="color: #f2f2f2;">Electrical and Automatic Engineer</h1>
+                      <div style="position: relative;left: 55px;top: 170px;">
+  
+                        <h3 style="color: #f2f2f2;position: relative;left: 55px;">Welcome to my website! </h3>
+                      <p style="color: #f2f2f2;position: relative;left: 45px;">
+                         Here, you will find information about my background, skills, and projects.
+                         Feel free to explore and learn more about my expertise in electrical and automatic engineering,
+                         as well as my passion for emerging technologies.
+                      </p>
+                        </div>
+                        </div>
+                          <!-- about me -->
+                    <div  id="content" class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                        <div style="width: 50% ; height: 50% ;">
+  
+                            <h1 style="position: relative;left: 55px;top: 40px">Profile: </h1>
+                          <p style="position: relative;left: 45px;top: 70px">I am Bader Eddine Dakhli, an Electrical and Automatic Engineer currently
+                             pursuing a National Diploma in Electrical and Automatic Engineering. With a focus on Internet of Things (IoT),
+                              Web Development, Programmable Logic Controllers (PLC) programming, and Artificial Intelligence (AI), 
+                            I have developed a versatile skill set to tackle complex engineering challenges. </p>
+                            </div>
+                      
+                    </div>
+
+                          <!-- CV -->
+                    <div id ="cont1" class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                        <div style="position: absolute;top: 150px;left:760px">
+                            <button style="position: absolute;top: 5px;left:10px;padding: 15px;"class="fa fa-arrow-up" id="butUP"></button>
+                            <button style="position: absolute;top: 55px;left:10px;padding: 15px;"  class="fa fa-arrow-down" id="butDOWN"></button>
+                            </div>
+
+                        <!-- Skillset Card-->
+                        <div class="card shadow border-0 rounded-4 mb-5" style="height:90%; width: 86%;position: relative;left: 55px;">
+                                
+                            <div class="card-body p-5" id="P1">
+                                <!-- Professional skills list-->
+                                <div class="mb-5">
+                                    <div class="d-flex align-items-center mb-4">
+                                        <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"><i class="bi bi-tools"></i>1</div>
+                                        <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Professional Skills</span></h3>
+                                    </div>
+                                    <div class="row row-cols-1 row-cols-md-3 mb-4">
+                                        <div class="col mb-4 mb-md-0">
+                                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Artificial Intelligence</div></div>
+                                        <div class="col mb-4 mb-md-0">
+                                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">PLC programming</div></div>
+                                        <div class="col">
+                                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Web Development</div></div>
+                                    </div>
+                                    <div class="row row-cols-1 row-cols-md-3">
+                                        <div class="col mb-4 mb-md-0">
+                                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Internet of Things (IOT)</div></div>
+                                        <div class="col mb-4 mb-md-0">
+                                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Adobe Software Suite</div></div>
+                                        <div class="col">
+                                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">User Interface Design</div></div>
+                                    </div>
+                                </div>
+                                <!-- Languages list-->
+                                <div class="mb-0">
+                                    <div class="d-flex align-items-center mb-4">
+                                        <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"><i class="bi bi-code-slash"></i>2</div>
+                                        <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Languages</span></h3>
+                                    </div>
+                                    <div class="row row-cols-1 row-cols-md-3 mb-4">
+                                        <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Python</div></div>
+                                        <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">C/C++</div></div>
+                                        <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">JavaScript</div></div>
+                                    </div>
+                                    <div class="row row-cols-1 row-cols-md-3">
+                                        <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">HTML/CSS</div></div>
+                                        <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">VHDL</div></div>
+                                        <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Django</div></div>
+                                    </div>
+                                </div>
+                                <div style="height: 30px;"></div>
+                                <div class="mb-0">
+                                    
+                                    <div class="row row-cols-1 row-cols-md-3 mb-4">
+                                        <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">YOLO(v5..v8)</div></div>
+                                        <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">TensorFlow</div></div>
+                                        <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">OpenCV</div></div>
+                                    </div>
+                                    
+                                    
+                                </div>
+                            </div>
+                        </div>
+                            
+                            
+                     
+
+                    </div>
+
+
+
+                         <!-- projects -->
+                  
+                    <div id ="cont2" class="card overflow-hidden shadow rounded-4 border-0 mb-5" >
+                        
+                        <div class="att" >
+                            <div class="slider">
+                                <div class="slides">
+                                  <!--radio buttons start-->
+                                  <input type="radio" name="radio-btn" id="radio1">
+                                  <input type="radio" name="radio-btn" id="radio2">
+                                  <input type="radio" name="radio-btn" id="radio3">
+                                  <input type="radio" name="radio-btn" id="radio4">
+                                  <!--radio buttons end-->
+                                  <!--slide images start-->
+                                  <div class="slide first">
+                                    
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5" id="caaa" >
+                                <div class="card-body p-20" >
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-0">
+                                            <h2 class="fw-r">Tracking objects in a video</h2>
+                                            <p>Description: This project involved the use of artificial intelligence techniques to track and recognize specific objects in a video.</p>
+                                            <p>Usage: Python , Google Colab , OpenCV, YOLOv5...</p>
+                                            
+                                        </div>
+                                        <img class="imgmg-fluid" style="width: 50% ; height: 50% ;" src="{% static 'img/test11.jpg' %}" alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                                  </div>
+                                  <div class="slide">
+                                    
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5" id="caaa">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-0">
+                                            <h2 class="fw-bolder">Design of a PID regulator model:</h2>
+                                            <p>Description:  This project involved designing and implementing a PID controller for a control system. The objective was to optimize the 
+                                                system response by minimizing the discrepancies between the setpoint and the measured value. </p>
+                                            <p>Usage: Proteus software, electrical compositions for example: amplifier, potentiometer...</p>     
+                                        </div>
+                                        <img class="img-fluid" style="width: 50% ; height: 50% ;" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                                  </div>
+                                  <div class="slide">
+                                    
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5" id="caaa">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-0">
+                                            <h2 class="fw-bolder">Project Name 3</h2>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                        </div>
+                                        <img class="img" style="width: 50% ; height: 50% ;" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                                  </div>
+                                  <div class="slide">
+                                   
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5" id="caaa">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-0">
+                                            <h2 class="fw-bolder">Project Name 4</h2>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                        </div>
+                                        <img class="img" style="width: 50% ; height: 50% ;" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                                  </div>
+                                  <!--slide images end-->
+                                  <!--automatic navigation start-->
+                                  <div class="navigation-auto">
+                                    <div class="auto-btn1"></div>
+                                    <div class="auto-btn2"></div>
+                                    <div class="auto-btn3"></div>
+                                    <div class="auto-btn4"></div>
+                                  </div>
+                                  <!--automatic navigation end-->
+                                </div>
+                                <!--manual navigation start-->
+                                <div class="navigation-manual">
+                                  <label for="radio1" class="manual-btn"></label>
+                                  <label for="radio2" class="manual-btn"></label>
+                                  <label for="radio3" class="manual-btn"></label>
+                                  <label for="radio4" class="manual-btn"></label>
+                                </div>
+                                <!--manual navigation end-->
+                              </div>
+                              <!--image slider end-->
+                          
+                              <script type="text/javascript">
+                              var counter = 1;
+                              setInterval(function(){
+                                document.getElementById('radio' + counter).checked = false;
+                                counter++;
+                                if(counter > 4){
+                                  counter = 1;
+                                }
+                              }, 15000);
+                              </script>
+                              </div>
+                        
+
+
+                    </div>
+                    
+                    
+                    <img src="{% static 'img\b_MOV1.png' %}" alt="Image" id="image">
+                  </div>
+                 
+            
+        
+        
+    </nav>
+    
+</div>
+
+
+
+  
+<script src="{%static 'js/homme5.js' %}"></script>
+<script src="{%static 'js/butUP_DO1.js' %}"></script>
+
+            {% endblock %}
