@@ -2,4 +2,7 @@
 Here, you will find information about my background, skills, and projects. Feel free to explore and learn more about my expertise in electrical and automatic engineering, as well as my passion for emerging technologies.
 ## Site Destination
 ![image](https://github.com/Bader-dine/my_site_web/assets/121392319/d4c36937-a1a9-4767-8292-483ec7f190f4)
-![video](https://youtu.be/ZREET4vHQuw)
+
+
+https://github.com/Bader-dine/my_site_web/assets/121392319/5a325be6-12d6-4442-a868-0796ad6a389a
+
